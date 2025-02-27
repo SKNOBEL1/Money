@@ -3,6 +3,7 @@ document.getElementById('login-btn').addEventListener("click",
         event.preventDefault();
      const accountNumber = document.getElementById("Account-number").value;
     const pin = document.getElementById("pin").value;
+   
     if(accountNumber.length===11){
         if(pin==="1234"){
             console.log("okay tikh ache")
@@ -15,6 +16,6 @@ document.getElementById('login-btn').addEventListener("click",
         
     }
     else{
-        alert("need valid acount number")
+        alert("need valid account number")
     }
 })
